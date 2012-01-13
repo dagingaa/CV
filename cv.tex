@@ -1,0 +1,79 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{url,parskip}%formatting
+\usepackage{titlesec}
+\usepackage{supertabular}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{hyperref}
+
+\usepackage{fullpage}
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\begin{document}
+\pagestyle{empty}
+  \begin{wrapfigure}{r}{0.2\textwidth}
+  \includegraphics[width=0.25\textwidth]{gurutjenesten.jpg}
+  \end{wrapfigure}
+% Title
+\par{
+  {\Huge Dag-Inge Aas }
+  \bigskip\par}
+
+% Personal Data
+%  \section{Personal Data}
+  \begin{tabular}{rl}
+  \textsc{Date of Birth:} & 21 July 1989\\
+    \textsc{Address:}& Sverresgate 8 B21, 7012 Trondheim\\
+    \textsc{Phone:}& +47 924 91 526\\
+    \textsc{Email:}& \href{mailto:daginge@gmail.com}{daginge@gmail.com}\\
+    \textsc{Homepage:}& \href{http://daginge.com}{http://daginge.com}\\
+    \textsc{Github:}& \href{http://github.com/dagingaa}{http://github.com/dagingaa}\\
+\end{tabular}
+
+\section{Education}
+\begin{tabular}{r|p{12cm}}
+  \textsc{Jun 2013} & \textsc{Norwegian University of Science and Technology} \\\textsc{Aug 2008}&\emph{Master of Science in Computer Science}\\&\footnotesize{Specialized in Software and Information Systems.} \\& \footnotesize{Notable courses: Object-oriented programming, Algorithms and Data structures, Information Systems, Programming languages, Software Architecture, Software Quality and Quality Assurance, Software security, Distributed Systems.}\\\multicolumn{2}{c}{} \\
+\end{tabular}
+
+\section{Work Experience}
+\begin{tabular}{r|p{12cm}}
+  \emph{Current} & Software Developer Intern at \textsc{Telenor Comoyo}, Trondheim \\\textsc{Jan 2012}&\emph{Software Development}\\&\footnotesize{Part-time developer.}\\\multicolumn{2}{c}{} \\
+  \textsc{Jul 2011} & Summer Intern at \textsc{Iterate}, Oslo \\\textsc{Jun 2011}&\emph{IT consultancy}\\&\footnotesize{Developed a new customer-driven project in Java on Amazon Web Services. Learned about synchronization, REST and large-scale distributed systems and their issues. Personal coaching on SCRUM and Kanban by Iterate and Kent Beck. Arranged and held our own meetings. Norwegian attestation available on request.}\\\multicolumn{2}{c}{} \\
+  \textsc{Jan 2012} & Guru at \textsc{Gurutjenesten}, NTNU  \\\textsc{Aug 2010}&\emph{First line IT-support}\\&\footnotesize{Help other students at the Institute of Computer Science and Informatics with IT related problems. These include wireless connectivity issues, compilator issues and any other issues an IT-student might have.}\\\multicolumn{2}{c}{} \\
+  \textsc{Dec 2011} & Senior Teaching Assistant in TDT4105 Information Technology, NTNU  \\\textsc{Aug 2011}&\emph{Colloquium responsible}\\&\footnotesize{Help students fresh to programming understand the concepts of programming and the exercises given to them. Programming was mainly focused on Python and Matlab. Colloquiums are focused on helping students completely new to programming }\\\multicolumn{2}{c}{} \\
+  \textsc{Aug 2009} & Teaching Assistant in TDT4110 Information Technology, NTNU  \\\textsc{Dec 2009}&\emph{Student assistant}\\&\footnotesize{Help students fresh to programming understand the concepts of programming and the exercises given to them. Programming was mainly focused on Java Server Pages, HTML and CSS.}\\\multicolumn{2}{c}{} \\
+  \textsc{Aug 2010} & Customer advisor at \textsc{Expert}, Ålesund \\\textsc{Sep 2006}&\emph{Sales and customer support}\\&\footnotesize{Salesman and first-line support for electronics of all kinds. Mostly Televisions, computers, mobile cellphones and cameras. Helped customers make the right purchase for their needs.}\\\multicolumn{2}{c}{} \\
+\end{tabular}
+
+\section{Volunteer work}
+\begin{tabular}{r|p{12cm}}
+  \emph{Current} & Head of IT at ISFiT 2013, Trondheim  \\\textsc{Aug 2011}&\emph{Head of IT Development and System Administration}\\&\footnotesize{Manages everything related to IT in ISFiT. ISFiT is a festival of more than 400 functionaries and 5000 applying applicants from all over the world. This requires a complete IT system from email and samba to custom made applications built with Ruby on Rails. As Head of IT you manage 10 other developers developing and maintainting multiple projects across the entire festival. See also "Head of Development"}\\\multicolumn{2}{c}{} \\
+  \emph{Aug 2011} & Head of Development at ISFiT 2011, Trondheim  \\\textsc{Mar 2010}&\emph{Head Developer and Project Manager}\\&\footnotesize{Project manager for the biggest new IT project of ISFiT 2011. Held meetings, workshops and demonstrations, gathered requirement specification from the different affected parties and maintaned the project after launch. Led a group of 3 other developers from start to finish to maintenance. Programming was mainly focused on Ruby on Rails and scripting using Ruby. Some of our core technologies include LDAP, MySQL, UNIX, Apache, Passenger, capistrano and more.}\\\multicolumn{2}{c}{} \\
+  \textsc{Aug 2011}& Excursion planner for \textsc{Xcom'11}, Trondheim \\\textsc{Jan 2010}& \emph{Excursion commitee}\\&\footnotesize{Responsible for the contact with the travel agency. Also did crisis management when the trip got cancelled due to an earthquake in Japan followed by a nuclear crisis.}\\\multicolumn{2}{c}{} \\
+\end{tabular}
+
+\section{Skills}
+\begin{tabular}{r|p{12cm}}
+  \textsc{Technical}& Programming languages  \\&\footnotesize{Java, Ruby, Javascript, Python. In addition the following frameworks and libraries: Ruby on Rails, Android, Amazon Web Services API. }
+  \\&\par \\& Databases  \\&\footnotesize{MySQL, PostgreSQL, Amazon SimpleDB, MongoDB}
+  \\&\par \\& Other  \\&\footnotesize{HTML(5), CSS(3), Amazon Web Services, real-time synchronization using XMPP, Project Management, RESTful API in Java }
+  \\\multicolumn{2}{c}{}\\
+  \textsc{Personal}& Languages  \\&\footnotesize{Norwegian (Mother Tongue), English (Experienced), French (Written understanding)}
+
+\end{tabular}
+
+\section{References}
+\begin{tabular}{rl}
+  \textsc{Expert Norge} & Per-André Olsbø - 92808891 between 10 and 16 on weekdays
+  \\& Jostein Brekke - 95888858 between 10 and 16 on weekdays
+  \\\multicolumn{2}{c}{}\\
+  \textsc{ISFiT}& Iver Dihle Skjervum - 99495245 on weekdays \\
+\end{tabular}
+
+
+\end{document}
